@@ -1,0 +1,239 @@
+.nav{
+    box-shadow: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    text-decoration:none;
+    font-size: 20px;
+}
+#logo{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+#signin{
+    /* border-radius: 4px; */
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+    color: #333;
+    box-shadow: none;
+    background-color: transparent;
+    /* font-weight: ; */
+}
+#signup{
+    /* background-color: #e7b366;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 1px hsla(37,73%,65%,.72);
+    color: #fff;
+    display: inline-block;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 600;
+    height:100%;
+    line-height: 40px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px; */
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    /* letter-spacing: 4px; */
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+}
+#signup:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+}
+#heading1{
+    padding-top: 40px;
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 50px;
+}
+#books{
+    color:red;
+}
+.para1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+h2{
+    font-size: 36px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 50px;
+    color: rgba(2, 29, 78, 0.681);
+}
+/* .link{
+   font-size: 20px;
+    font-weight: 400;
+       color: #ffffff;
+  line-height: 1.5;
+    text-decoration: none;
+    background-color: #3f0d0d;
+    border: 1px solid #ddd;
+    width: calc(25% - 60px);
+    height: 60px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.03);
+    text-align: center;
+    display:inline-block;
+} */
+
+.title{
+    text-align: center;
+}
+hr{
+    width: 400px;
+}
+.blockquote span{
+    display: block;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 5px;
+}
+blockquote{
+    color: #333;
+    /* margin: 15px 0 60px 0; */
+    text-align: center;
+}
+.blockquote cite{
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 22px;
+}
+.container{
+    font-family: Barlow, Helvetica, Arial, sans-serif;
+    padding: 45px 15px;
+    background-color: #E8BCC9;
+    background-image: url("https://dg0lpj0xiisq5.cloudfront.net/assets/v1/pages/home/quotes_background-d2761ccb9bdc78b2bd5769329866b59a0d7f4a1bc2cd5935a96ce770c34e0159.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 25%;
+    margin-top: 30px;
+}
+.main{
+    text-align: center;
+    background-color: rgb(235, 234, 234);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+.link{
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.1));
+    text-decoration: none;
+    margin: 10px;
+    display:inline-block;
+}
+
+.link:active {
+    scale: 0.92;
+}
+
+.link:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+}
+/* #img1, #img2, #img3, #img4, #img5{
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.img:hover{
+    height: 305px;
+    width: 201px;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+} */
+.tagline{
+    color: red;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 100;
+    background-image: url("Book\ back.jpg");
+    background-size: cover;
+    padding-bottom: 150px;
+    padding-top: 70px;
+    padding-left: 30px;
+    margin-top: 20px;
+    
+}
+.tagline span{
+    color: white;
+}
+.container{
+    margin-top: 150px;
+}
+.gallery{
+    display: flex;
+    /* left: calc(50% - 330px); */
+}
+.card{
+    position: relative;
+    left: 0px;
+    width: 180px;
+    height: 160px;
+    border-radius: 8px;
+    transition: 1s ease-in-out;
+    overflow:visible;
+    /* box-shadow: 0 5px 12px rgba(0,0,0,0.5); */
+}
+.card:not(:first-child){
+    margin-left: -45px;
+}
+.card:hover{
+    transform: translateY(-16px);
+    font-weight: bold;
+    cursor: pointer;
+}
+.card:hover ~ .card{
+    left: 55px;
+}
+.card img{
+    height: 300px;
+    object-fit:initial;
+    border-radius: 4px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 80px;
+    padding-top:30px;
+    display: flex;
+    text-align: center;
+}

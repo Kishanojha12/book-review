@@ -1,0 +1,209 @@
+.nav{
+    box-shadow: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    text-decoration:none;
+    font-size: 20px;
+    padding-bottom:10px;
+}
+#logo{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#signin{
+    /* border-radius: 4px; */
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+    color: #333;
+    box-shadow: none;
+    background-color: transparent;
+    /* font-weight: ; */
+}
+#signup{
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    /* letter-spacing: 4px; */
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+    margin-right: 0;
+}
+#signup:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+}
+.row2{
+  margin-top: 40px;
+}
+#heading2{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+#heading2 span{
+  color: red;
+}
+.rating1, .rating2, .rating3, .rating4, .rating5, .rating6{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.3rem;
+    --stroke: #666;
+    --fill: #ffc73a;
+  }
+  
+  .rating1 input, .rating2 input, .rating3 input, .rating4 input, .rating5 input, .rating6 input{
+    appearance: unset;
+  }
+  
+  .rating1 label, .rating2 label, .rating3 label, .rating4 label, .rating5 label, .rating6 label{
+    cursor: pointer;
+  }
+  
+  .rating1 svg, .rating2 svg, .rating3 svg, .rating4 svg, .rating5 svg, .rating6 svg{
+    width: 2rem;
+    height: 2rem;
+    overflow: visible;
+    fill: transparent;
+    stroke: var(--stroke);
+    stroke-linejoin: bevel;
+    stroke-dasharray: 12;
+    animation: idle 4s linear infinite;
+    transition: stroke 0.2s, fill 0.5s;
+  }
+  
+  @keyframes idle {
+    from {  
+      stroke-dashoffset: 24;
+    }
+  }
+  
+  .rating1 label:hover svg, .rating2 label:hover svg, .rating3 label:hover svg, .rating4 label:hover svg, .rating5 label:hover svg, .rating6 label:hover svg{
+    stroke: var(--fill);
+  }
+  
+  .rating1 input:checked ~ label svg, .rating2 input:checked ~ label svg, .rating3 input:checked ~ label svg, .rating4 input:checked ~ label svg, .rating5 input:checked ~ label svg, .rating6 input:checked ~ label svg{
+    transition: 0.5s;
+    animation: idle 4s linear infinite, yippee 0.75s backwards;
+    fill: var(--fill);
+    stroke: var(--fill);
+    stroke-opacity: 0;
+    stroke-dasharray: 0;
+    stroke-linejoin: miter;
+    stroke-width: 8px;
+  }
+.book_1 img, .book_2 img, .book_3 img, .book_4 img, .book_5 img, .book_6 img{
+    justify-content: flex-start;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+.book_1, .book_2, .book_3, .book_4, .book_5, .book_6{
+  display: inline-flex;
+  margin-top: 30px;
+}
+.img1 a, .img2 a, .img3 a, .img4 a, .img5 a, .img6 a{
+  display: flex;
+}
+.discription1 h2{
+  font-size: 40px;
+}
+.discription1 pre,p{
+  font-size: 25px;
+}
+.discription1 a,p{
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.main{
+  background-image: url("bookk.jpg");
+  background-size:cover;
+}
+.discription1{
+  /* display: block; */
+  display: inline;
+}
+                    /*Image 2*/ 
+ 
+.discription2 h2{
+font-size: 40px;
+}
+.discription2 pre,p{
+font-size: 25px;
+}
+.discription2 a,p{
+margin-left: 30px;
+text-decoration: none;
+color: black;
+display: block;
+}
+                                            /* Image 3 */
+
+.discription3 h2{
+font-size: 40px;
+}
+.discription3 pre,p{
+font-size: 25px;
+}
+.discription3 a,p{
+margin-left: 30px;
+text-decoration: none;
+color: black;
+display: block;
+}
+                                            /* Image 4 */
+
+.discription4 h2{
+font-size: 40px;
+}
+.discription4 pre,p{
+font-size: 25px;
+}
+.discription4 a,p{
+margin-left: 30px;
+text-decoration: none;
+color: black;
+display: block;
+}
+                                  /* Image 5 */
+.discription5 h2{
+font-size: 40px;
+}
+.discription5 pre,p{
+font-size: 25px;
+}
+.discription5 a,p{
+margin-left: 30px;
+text-decoration: none;
+color: black;
+display: block;
+}
+                                   /* Image 6 */
+.discription6 h2{
+font-size: 40px;
+}
+.discription6 pre,p{
+font-size: 25px;
+}
+.discription6 a,p{
+margin-left: 30px;
+text-decoration: none;
+color: black;
+display: block;
+}
+                     
